@@ -1,0 +1,60 @@
+#body {
+   background-color: #bac5dd;
+}
+/*#nav {
+    background-color: #5473b4;
+ }
+*/ 
+#container{
+    max-width: 1400px;
+    /*width: 95%;*/
+    margin: auto;
+}
+#header{
+    background: url('./pics/picture1.jpg');
+    height: 580px;
+}   
+#container #header h1{
+    color:white;
+    font-size: 5rem;
+    padding: 300px 180px;
+    text-align: right;
+    font-weight: bold;
+}
+
+li {
+    background-color: #5473b4;
+    float: left;
+}
+li a{
+    /*font-weight: bold;*/
+    color: white;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    color: white;
+    width:auto
+}
+nav a:hover {
+    color: black
+}
+.left {
+   /* float: left;*/
+    height: 500px;
+    width: 600px;
+}
+.right {
+    /*float: right;*/
+    height: 500px;
+    width: 600px;
+}
+#footer{
+    padding: 100px 0;
+    text-align: center;
+    background: white;
+    height: 200px;
