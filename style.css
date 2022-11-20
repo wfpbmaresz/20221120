@@ -1,11 +1,39 @@
 #body {
-   background-position: fixed;
-   background-color: aquamarine;
+   background-color: #bac5dd;
+   margin: 0;
+   padding: 0;
 }
-/*#nav {
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #5473b4;
- }
-*/ 
+}
+
+.navbar-links ul { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1 rem;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.navbar-links li:hover {
+    color: black;
+}
 #container{
     max-width: 1400px;
     /*width: 95%;*/
@@ -45,10 +73,10 @@ nav a:hover {
     color: black
 }
 .left {
-   /* float: left;*/
+   /float: left;
     height: 500px;
     width: 600px;
-    position: absolute;
+    
 }
 .right {
     /*float: right;*/
